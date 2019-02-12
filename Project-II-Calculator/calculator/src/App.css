@@ -1,18 +1,53 @@
 * {
-    box-sizing: border-box
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+
 }
+
 .container {
-	display: flex;
-	flex-wrap: wrap;
-	/* width: 500px;
-	border: 1px solid red; */
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+}
+
+.seven {
+  grid-row: 1 / 1;
+  grid-column: 1 / 2;
+}
+.eight  {
+  grid-row: 1 / 1;
+  grid-column: 2 / 3;
+}
+.nine {
+  grid-row: 1 / 1;
+  grid-column: 3 / 4;
+}
+
+.divide {
+  grid-row: 1 / 1;
+  grid-column: 4 / 5;
+}
+
+.four {
+  grid-row: 2 / 2;
+  grid-column: 1 / 2;
+}
+.five {
+  grid-row: 2 / 2;
+  grid-column: 2 / 3;
+}
+.six {
+  grid-row: 2 / 2;
+  grid-column: 3 / 4;
 }
 
 
+
+/*
 .clear {
 	margin-top: 91px;
-	position: absolute;
-	left: 246px;
 	width: 30%;
 	align-self: center;
 	text-align: center;
@@ -23,8 +58,6 @@
 
 .divide {
 	margin-top: 91px;
-	position: absolute;
-	right: 489px;
 	height: 80px;
 	width: 10%;
 	align-self: center;
@@ -34,8 +67,6 @@
 }
 .multiply {
 	margin-top: 174px;
-	position: absolute;
-	right: 489px;
 	height: 80px;
 	width: 10%;
 	align-self: center;
@@ -46,8 +77,6 @@
 }
 .minus {
 	margin-top: 257px;
-	position: absolute;
-	right: 489px;
 	height: 80px;
 	width: 10%;
 	align-self: center;
@@ -58,8 +87,6 @@
 }
 .plus {
 	margin-top: 340px;
-	position: absolute;
-	right: 489px;
 	height: 80px;
 	width: 10%;
 	align-self: center;
@@ -70,8 +97,6 @@
 }
 .equals {
 	margin-top: 423px;
-	position: absolute;
-	right: 489px;
 	height: 80px;
 	width: 10%;
 	align-self: center;
@@ -82,8 +107,6 @@
 }
 .seven {
 	margin-top: 174px;
-	position: absolute;
-	left: 246px;
 	width: 10%;
 	align-self: center;
 	text-align: center;
@@ -91,7 +114,6 @@
 }
 .four {
 	margin-top: 256px;
-	position: absolute;
 	left: 246px;
 	width: 10%;
 	align-self: center;
@@ -100,8 +122,6 @@
 }
 .one {
 	margin-top: 339px;
-	position: absolute;
-	left: 246px;
 	width: 10%;
 	align-self: center;
 	text-align: center;
@@ -109,8 +129,6 @@
 }
 .eight {
 	margin-top: 174px;
-	position: absolute;
-	left: 370px;
 	width: 10%;
 	align-self: center;
 	text-align: center;
@@ -118,8 +136,6 @@
 }
 .five {
 	margin-top: 256px;
-	position: absolute;
-	left: 370px;
 	width: 10%;
 	align-self: center;
 	text-align: center;
@@ -127,8 +143,6 @@
 }
 .two {
 	margin-top: 339px;
-	position: absolute;
-	left: 370px;
 	width: 10%;
 	align-self: center;
 	text-align: center;
@@ -136,8 +150,6 @@
 }
 .nine {
 	margin-top: 174px;
-	position: absolute;
-	left: 495px;
 	width: 10%;
 	align-self: center;
 	text-align: center;
@@ -145,8 +157,6 @@
 }
 .six {
 	margin-top: 256px;
-	position: absolute;
-	left: 495px;
 	width: 10%;
 	align-self: center;
 	text-align: center;
@@ -154,8 +164,6 @@
 }
 .three {
 	margin-top: 339px;
-	position: absolute;
-	left: 495px;
 	width: 10%;
 	align-self: center;
 	text-align: center;
@@ -163,10 +171,8 @@
 }
 .zero {
 	margin-top: 422px;
-	position: absolute;
-	left: 246px;
 	width: 30%;
 	align-self: center;
 	text-align: center;
 	border: 1px solid black;
-}
+} */
