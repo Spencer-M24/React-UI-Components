@@ -1,8 +1,7 @@
 .calculator-display {
 	background-color: black;
 	height: 100px;
-	width: 40.3%;
-	margin-left: 20%;
+	width: 100vw;
 	color: white;
 	display: flex;
 	justify-content: flex-end;
